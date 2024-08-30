@@ -5,24 +5,48 @@
 #
 #    pip-compile-multi
 #
-aniso8601==8.0.0          # via flask-restx
-attrs==19.3.0             # via -r base.in, cattrs, jsonschema
-cattrs==1.0.0             # via -r base.in
-click==7.1.2              # via flask
-flask-restx==0.2.0        # via -r base.in
-flask==1.1.2              # via -r base.in, flask-restx
-importlib-metadata==1.7.0  # via jsonschema
-itsdangerous==1.1.0       # via flask
-jinja2==2.11.2            # via flask
-jsonschema==3.2.0         # via flask-restx
-markupsafe==1.1.1         # via jinja2
-numpy==1.19.0             # via opencv-python-headless
-opencv-python-headless==4.3.0.36  # via -r base.in
-pyrsistent==0.16.0        # via jsonschema
-pytz==2020.1              # via flask-restx
-six==1.15.0               # via flask-restx, jsonschema, pyrsistent
-werkzeug==1.0.1           # via flask, flask-restx
-zipp==3.1.0               # via importlib-metadata
+aniso8601==8.0.0
+    # via flask-restx
+attrs==19.3.0
+    # via
+    #   -r base.in
+    #   cattrs
+    #   jsonschema
+cattrs==1.0.0
+    # via -r base.in
+click==7.1.2
+    # via flask
+flask==1.1.2
+    # via
+    #   -r base.in
+    #   flask-restx
+flask-restx==0.2.0
+    # via -r base.in
+itsdangerous==1.1.0
+    # via flask
+jinja2==2.11.2
+    # via flask
+jsonschema==3.2.0
+    # via flask-restx
+markupsafe==1.1.1
+    # via jinja2
+numpy==2.1.0
+    # via opencv-python-headless
+opencv-python-headless==4.8.1.78
+    # via -r base.in
+pyrsistent==0.16.0
+    # via jsonschema
+pytz==2020.1
+    # via flask-restx
+six==1.15.0
+    # via
+    #   flask-restx
+    #   jsonschema
+    #   pyrsistent
+werkzeug==1.0.1
+    # via
+    #   flask
+    #   flask-restx
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
